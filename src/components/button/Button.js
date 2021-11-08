@@ -1,9 +1,7 @@
 import React from 'react';
 
-export default function Button({children, onClick}){
+export default function Button({ children, onClick }) {
     return (
-        <Button onClick={onClick}>
-            {children}
-        </Button>
+        <button onClick={onClick} >{children}</button>
     )
 }
